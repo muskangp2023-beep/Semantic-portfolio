@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="profile-pic">120 × 120</div>
+        <h1>Muskan Gupta</h1>
+        <p>Web Developer | Designer | Learner</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section about-section">
+            <h2>About Me</h2>
+            <p>Hello! I'm <strong>John Doe</strong>, a passionate web developer who loves creating clean, accessible, and responsive websites. I enjoy learning new technologies and building creative solutions for real-world problems.</p>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio designed using HTML5, CSS3, and Flexbox to showcase my work and skills.</p>
+            </div>
+
+            <div class="project">
+                <h3>To-Do List App</h3>
+                <p>A simple yet elegant task management app built with JavaScript, featuring add, edit, and delete functionalities.</p>
+            </div>
+        </section>
+
+        <section class="section skills-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info">
+                <span><span class="icon">✉</span> Email: name.email@example.com</span>
+                <span><span class="icon">📞</span> Phone: +91 XXXXXXXXXX</span>
+            </div>
+            <p>© 2025 Muskan gupta. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
